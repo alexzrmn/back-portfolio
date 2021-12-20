@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_lists_tasks",
+  "info": {
+    "displayName": "tasks",
+    "icon": "arrow-right"
+  },
+  "options": {},
+  "attributes": {
+    "taskname": {
+      "type": "string"
+    }
+  }
+}

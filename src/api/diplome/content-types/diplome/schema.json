@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "diplomes",
+  "info": {
+    "singularName": "diplome",
+    "pluralName": "diplomes",
+    "displayName": "Diplome",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "maxLength": 200,
+      "required": true
+    },
+    "school": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "shortdescription": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

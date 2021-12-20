@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "experiences",
+  "info": {
+    "singularName": "experience",
+    "pluralName": "experiences",
+    "displayName": "Experience",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 200
+    },
+    "compagny": {
+      "type": "string",
+      "maxLength": 200,
+      "required": false
+    },
+    "date": {
+      "type": "string",
+      "required": true
+    },
+    "city": {
+      "type": "string"
+    },
+    "listsTasks": {
+      "displayName": "tasks",
+      "type": "component",
+      "repeatable": true,
+      "component": "lists.tasks"
+    },
+    "shortdescription": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}
